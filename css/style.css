@@ -319,6 +319,7 @@ img {
 .process {
     padding-top: 99px;
     text-align: center;
+    padding-bottom: 99px;
 }
 
 .process-text {
@@ -347,9 +348,109 @@ img {
     text-align: left;
 }
 
-.contact-bold {}
+/* ---------contact */
+.contact-form {
+    background: #171616;
+    color: #ffff;
+    padding-top: 97px;
+    font-size: 15px;
+}
 
-.contact-p {}
+.contact-h1 {
+    margin-bottom: 46px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.contact-form-form {}
+
+.form-row {
+    display: flex;
+}
+
+.form-group {
+    margin-bottom: 45px;
+    padding: 0 20px;
+    position: relative;
+    width: 300px;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ffff;
+    width: 100%;
+    padding: 9px 0;
+    outline: 0;
+}
+
+.input:focus+.label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.input:not(:placeholder-shown)+.label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.label {
+    letter-spacing: 0.15em;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+
+.form-msg {
+    width: 600px;
+}
+
+.text-area {
+    min-height: 130px;
+    padding: 9px 0;
+    resize: vertical;
+}
+
+.textarea:focus+.label {
+    transform: translateY(-25px);
+    font-size: 12px;
+}
+
+.textarea:not(:placeholder-shown)+.label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.contact-btn {
+    margin-left: 20px;
+    margin-bottom: 90px;
+}
+
+/* -----------footer */
+
+.footer-flex {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer-p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 0.15em;
+}
+
+.footer-soc img {
+    margin-right: 10px;
+}
 
 
 @media screen and (min-width:1720px) {
