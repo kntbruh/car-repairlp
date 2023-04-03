@@ -95,12 +95,16 @@ img {
     border-bottom: 2px solid #e5e5e5;
 }
 
-
 .header-lang {
     display: flex;
     text-transform: uppercase;
     flex-direction: row-reverse;
     gap: 10px;
+}
+
+a.active {
+    color: #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
 }
 
 .header-main {
